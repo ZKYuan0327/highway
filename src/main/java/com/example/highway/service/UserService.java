@@ -9,4 +9,5 @@ import com.example.highway.pojo.User;
  * @CreateTime: 2023-03-07  11:35
  */
 public interface UserService extends IService<User> {
+
 }

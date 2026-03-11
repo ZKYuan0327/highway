@@ -1,7 +1,6 @@
 package com.example.highway.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.example.highway.common.Result;
 import com.example.highway.form.LoginForm;
 import com.example.highway.pojo.User;

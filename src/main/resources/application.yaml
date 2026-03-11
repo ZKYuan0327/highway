@@ -6,7 +6,7 @@ spring:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://121.36.39.81:3306/highway?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
-      username: root
+      username: dev
       password: zhangkuoyuan123
       # 连接池配置（可选）
       initial-size: 5
