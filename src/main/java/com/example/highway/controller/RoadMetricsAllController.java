@@ -61,4 +61,10 @@ public class RoadMetricsAllController {
         roadService.removeById(id);
         return Result.success("删除成功");
     }
+
+    @GetMapping("/get-prompt/{id}")
+    public Result<String> getPrompt(@PathVariable Long id){
+        RoadMetricsAll road = roadService.getById(id);
+        return Result.success(road.toString()+"请你根据路段信息为我分析并推荐相应的路价值提升策略。");
+    }
 }
